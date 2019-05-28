@@ -1,1 +1,3 @@
 # Classifying-Dog-Breeds
+
+As part of the higher level computer vision course, I have made a project about classifying dog breeds. For the dataset Stanford dogs dataset from Kaggle has been used (https://www.kaggle.com/jessicali9530/stanford-dogs-dataset/). This dataset consists of 20,000 images and 120 dog breeds. In order to make the problem less complex, we took 60 dog breeds and scaled the images to 100x100. The notebooks are executed on Microsoft Azure server which has 16 GB ram. In here, I tried two different approaches: CNN from scratch, where I built and trained my own CNN and VGG-16 model where I used the pretrained weights to classify my images, also known as transfer learning. 
